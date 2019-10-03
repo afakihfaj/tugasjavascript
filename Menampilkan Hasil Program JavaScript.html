@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Belajar Menampilkan Hasil Program JavaScript</title>
+        <script>
+            /*menggunaka event onload untuk memastikan bahwa kode javaScript  dijalankan setelah seluruh HTML selesai di proses*/
+        window.onload=function()
+            {
+                var hasil;/*membuat variabel hasil untuk menampung hasil penjumlahan*/
+                hasil = 1+3+5+7+9;/*membuat penjumlahan sederhana yang nantinya hasil dari penjumlahan tersebut masuk dan tersimpan ke variabel hasil*/
+                document.getElementById("tempat_hasil").innerHTML=hasil;/*untuk menampilkan nilai akhir penjumlahan tadi ke dalam tag HTML yang memiliki id=tempat_hasil*/
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Belajar Menampilkan hasil Program JavaScript</h1>
+        <p>Saya sedang belajar Belajar Menampilkan hasil Program JavaScript di rumah </p>
+        <div id="tempat_hasil"></div>
+    </body>
+</html>

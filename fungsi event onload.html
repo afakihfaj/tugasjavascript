@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Belajar JavaScript Event Onload</title>
+        <script>
+            /*JavaScript menyediakan solusi untuk programmer untuk tetap meletakkan JavaScript di awal halaman, yakni menggunakan Event Onload. */
+            /*Dengan menggunakan event onload, seluruh kode JavaScript dapat diletakkan di awal halaman, tanpa perlu khawatir dengan urutan pengeksekusian oleh web browser. */
+        window.onload = function()
+        {
+            var a=document.getElementById("div_semangat");
+            a.innerHTML="<p>Sedang Belajar JavaScript,Semangat...!!!<p>";
+        }
+
+        </script>
+    </head>
+    <body>
+        <h1>BElajar JavaScript Event Onload</h1>
+        <p>Saya Sedang Belajar JavaScript Event Onload Di rumah</p>
+        <div id="div_semangat"></div>
+    </body>
+</html>

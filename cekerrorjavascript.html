@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--untuk melihat error pada java script,tekan ctrl + shift + i pada browser yang digunakan. Lalu akan muncul banyak tab kemudian pilih tab console.nantinya di tab console tersebut akan memberitahu kita bagian yang error pada html-->
+        <title>Belajar JavaScript di JTI</title>
+    <script type="text/javascript">
+    /*ketika tag function dihapus,maka akan muncul error pada tab console*/
+    function tambah_semangat()
+    {
+        var a=document.getElementById("tambah_semangat");
+         a.innerHTML+="<p> Sedang belajar javascript,Semangat...!!!<p>";
+    }
+    </Script>
+    </head>
+    <body>
+        <h1>Belajar JavaScript</h1>
+        <p>Saya sedang belajar JavaScript di jti.polije.com</p>
+    klik tombol ini untuk menambahkan kalimat baru :
+
+    <button id="tambah" onclick="tambah_semangat()">Semangat..!!</button>
+    
+        <div id="tambah_semangat"></div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Belajar Eksekusi HTML</title>
+        <script>
+            var a=document.getElementById("div_semangat");
+            a.innerHTML="<p> Sedang Belajar JavaScript,Semangat...!!!</p>";
+        </script>
+    </head>
+    <body>
+        <h1> Belajar JavaScript</h1>
+        <p>Saya Sedang Belajar JavaScript di jti.polije.com</p>
+        <!--akan terjadi error sebab saat kode JavaScript dieksekusi,tag div belum tersedia(belum sempat di proses) karena  JavaScript dijalankan sebelum tag body  -->
+        <!--Tag div baru ada ketika web browser telah selesai menjalankan JavaScript-->
+        <!--Solusi: memindahkan kode JavaScript Ke akhir halaman HTML-->
+        <div id="div_semangat"></div>
+    </body>
+</html>

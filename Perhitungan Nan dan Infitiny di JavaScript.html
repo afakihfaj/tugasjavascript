@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Belajar JavaScript</title>
+            <script>
+                a=5;
+                b=7;
+
+                c=b/0;
+                console.log(c); //untuk menampilkan nilai var c yang hasilnya infinity(division by zero) ke dalam tab console pada menu Web Developer di browser
+                
+                d=12/0;
+                console.log(d); //untuk menampilkan nilai var d yang hasilnya infinity (division by zero) ke dalam tab console pada menu Web Developer di browser
+                
+                e = 1 + Math.pow(10,309);
+                console.log(e); //untuk menampilkan nilai var e yang hasilnya infinity(overflow) ke dalam tab console pada menu Web Developer di browser
+                
+                f= -Math.pow(10,309) -1;
+                console.log(f) //untuk menampilkan nilai var f yang hasilnya -infinity(negative infinity) ke dalam tab console pada menu Web Developer di browser
+                
+                g= b+e;
+                console.log(g); //*untuk menampilkan nilai var g yang hasilnya Infinity(karena e dan b infinity) ke dalam tab console pada menu Web Developer di browser
+                
+                h=0/0;
+                console.log(h); //*untuk menampilkan nilai var h yang hasilnya NaN(Not A Number) ke dalam tab console pada menu Web Developer di browser
+            
+                i=Math.sqrt(-25);
+                console.log(i); //*untuk menampilkan nilai var i yang hasilnya Nan(akar kuadrat negatif) ke dalam tab console pada menu Web Developer di browser
+            
+                j=c/d;
+                console.log(j); //untuk menampilkan nilai var j yang hasilnya NaN(c dan d sama-sama bernilai infinity)ke dalam tab console pada menu Web Developer di browser
+            </script>
+    </head>
+    <body>
+        <h1>Belajar JavaScript</h1>
+        <p>Saya sedang belajar pengertian NaN dan Infinity JavaScript</p>    
+    </body>
+
+</html>
